@@ -89,7 +89,7 @@ document.body.className += ' jsenabled';
                         <input type="hidden" name="logintoken" value="An70nmX6CAqqxYIv2ehHyt3xJ9Jy2tq5">
                         <div class="form-group">
                             <label for="username" class="sr-only">
-                                    Nama pengguna
+                                    Nama mahasiswa
                             </label>
                             <input type="text" name="username" id="username" class="form-control" value="" placeholder="Nama pengguna" autocomplete="username">
                         </div>
@@ -101,6 +101,21 @@ document.body.className += ' jsenabled';
                                 <input type="checkbox" name="rememberusername" id="rememberusername" value="1">
                                 <label for="rememberusername">Ingat username</label>
                             </div>
+                        <div class="form-group has-feedback">
+        <small class="text-warning">Tulis jawaban angka di bawah ini</small>
+        <div class="clearfix"></div>
+
+        <div class="row">
+        <div class="col-sm-6">
+          <p style="font-size: 28px; font-family: impact; ">12 * 4 + 15 / 26 = </p>
+        </div>
+        <div class="col-sm-6">
+          <input type="jawaban" class="form-control" name="jawaban" required="">
+        </div>
+        </div>
+        <div class="clearfix">  </div>
+
+      </div>
 
                         <button type="submit" class="btn btn-primary btn-block mt-3" id="loginbtn">Masuk</button>
                     </form>
