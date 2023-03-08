@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contoh Halaman Web</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Selamat Datang di Halaman Web Saya!</h1>
+    </header>
+    <main>
+      <p>Ini adalah halaman web sederhana yang dibuat dengan HTML, CSS, dan JavaScript.</p>
+      <img src="gambar1.jpg" alt="Gambar 1">
+      <p>Ini adalah gambar 1.</p>
+      <img src="gambar2.jpg" alt="Gambar 2">
+      <p>Ini adalah gambar 2.</p>
+    </main>
+    <footer>
+      <p>Hak Cipta © 2023 oleh Saya.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
